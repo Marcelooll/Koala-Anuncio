@@ -6,12 +6,12 @@ Site institucional desenvolvido como projeto escolar para a disciplina de **Dese
 
 ## 👥 Integrantes do Grupo
 
-| Nome | RA |
+| Nome | RGM |
 |------|----|
 | Vitor Arruda Dos Santos | — |
 | Marcelo Gabriel Alves | — |
 | Veronica dos Santos Lima | — |
-| Victor Correa | — |
+| Victor Correa | 47093102 |
 | Felipe de Oliveira Brito | — |
 
 ---
