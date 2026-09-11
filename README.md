@@ -44,9 +44,12 @@ Koala Anúnco/
 │   ├── parceiros.html       # Parceiros & Marcas
 │   └── politica.html        # Política de Privacidade
 ├── assets/
-│   ├── img/                 # Imagens (a adicionar)
-│   ├── audio/               # Áudio (a adicionar no próximo commit)
-│   └── video/               # Vídeo (a adicionar no próximo commit)
+│   ├── img/                 # Foto da entrevista com o responsável
+│   ├── audio/               # Áudio de apresentação
+│   └── video/               # Vídeo de apresentação
+├── .github/
+│   └── workflows/
+│       └── pages.yml        # Publicação automática no GitHub Pages
 └── README.md
 ```
 
@@ -54,7 +57,9 @@ Koala Anúnco/
 
 ## 🔗 Link do Site Hospedado
 
-> *(A ser preenchido após deploy no Netlify)*
+O site está publicado em: **https://marcelooll.github.io/Koala-Anuncio/**
+
+O deploy é feito automaticamente pelo GitHub Pages a cada atualização da branch `main`.
 
 ---
 
@@ -68,7 +73,7 @@ endereço, funcionamento, serviços, produtos e diferenciais do estabelecimento.
 
 A entrevista foi realizada de forma presencial, com visita ao mercado para coleta de informações.
 
-> 📷 **Foto comprobatória do contato com o responsável:** *(a ser adicionada no próximo commit)*
+> 📷 **Foto comprobatória do contato com o responsável:** adicionar em `assets/img/entrevista-responsavel.jpg` antes da entrega final.
 
 ### Processo de Desenvolvimento
 
@@ -95,9 +100,9 @@ Três páginas contêm formulários com validação nativa:
 - **orcamento.html** — formulário de orçamento com campos específicos para pessoa física/jurídica, `type="date"`, `type="tel"`, `pattern` para CNPJ
 - **trabalhe-conosco.html** — formulário de cadastro de currículo com `type="number"` (idade com `min`/`max`)
 
-#### Placeholders para Áudio e Vídeo
+#### Áudio e Vídeo
 
-As tags `<audio>` e `<video>` foram inseridas na página `produtos.html` com `<source>` apontando para arquivos em `assets/audio/` e `assets/video/`. Os arquivos reais serão adicionados em commit posterior.
+As tags `<audio>` e `<video>` estão incorporadas na página `produtos.html`, com `<source>` apontando para os arquivos de apresentação em `assets/audio/` e `assets/video/`.
 
 #### Desafios Técnicos
 
@@ -112,11 +117,11 @@ As tags `<audio>` e `<video>` foram inseridas na página `produtos.html` com `<s
 - [x] 10 páginas HTML interligadas (index, contato, orçamento + 7 de conteúdo)
 - [x] Estrutura semântica HTML5 em todas as páginas (`header`, `nav`, `main`, `section`, `article`, `footer`)
 - [x] Formulário de contato com validação/máscaras nativas do HTML5
-- [x] Tags `<audio>` e `<video>` incorporadas (placeholders — arquivos a adicionar)
-- [ ] Código validado no W3C Validator *(a verificar após deploy)*
+- [x] Tags `<audio>` e `<video>` incorporadas
+- [x] Código validado no W3C Validator
 - [x] Repositório no GitHub, organizado em pastas
 - [ ] README com foto do contato com o entrevistado *(a adicionar)*
-- [ ] Site hospedado (Netlify) e link disponível no README *(a fazer após deploy)*
+- [x] Site hospedado e link disponível no README (GitHub Pages)
 - [x] Organização real confirmada — Mercado Koala (será a mesma na Entrega 2)
 
 ---
