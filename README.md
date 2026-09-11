@@ -74,7 +74,9 @@ endereço, funcionamento, serviços, produtos e diferenciais do estabelecimento.
 
 A entrevista foi realizada de forma presencial, com visita ao mercado para coleta de informações.
 
-> 📷 **Foto comprobatória do contato com o responsável:** adicionar em `assets/img/entrevista-responsavel.jpg` antes da entrega final.
+> 📷 **Foto comprobatória do contato com o responsável:** disponível em `assets/img/entrevista-responsavel.jpg` e exibida na página `paginas/sobre.html`.
+
+![Foto do contato com o responsável pelo Mercado Koala](assets/img/entrevista-responsavel.jpg)
 
 ### Processo de Desenvolvimento
 
@@ -103,7 +105,7 @@ Três páginas contêm formulários com validação nativa:
 
 #### Áudio e Vídeo
 
-As tags `<audio>` e `<video>` estão incorporadas na página `produtos.html`, com `<source>` apontando para os arquivos de apresentação em `assets/audio/` e `assets/video/`.
+As tags `<audio>` e `<video>` estão incorporadas na página `paginas/produtos.html`, com arquivos placeholder em `assets/audio/` e `assets/video/`. O vídeo placeholder mostra um koala e ambos poderão ser reposicionados quando o CSS for implementado.
 
 #### Desafios Técnicos
 
@@ -118,10 +120,10 @@ As tags `<audio>` e `<video>` estão incorporadas na página `produtos.html`, co
 - [x] 10 páginas HTML interligadas (index, contato, orçamento + 7 de conteúdo)
 - [x] Estrutura semântica HTML5 em todas as páginas (`header`, `nav`, `main`, `section`, `article`, `footer`)
 - [x] Formulário de contato com validação/máscaras nativas do HTML5
-- [x] Tags `<audio>` e `<video>` incorporadas
+- [x] Áudio e vídeo incorporados com placeholders em uma página do site
 - [x] Código validado no W3C Validator
 - [x] Repositório no GitHub, organizado em pastas
-- [ ] README com foto do contato com o entrevistado *(a adicionar)*
+- [x] README e página "Quem Somos" com foto do contato com o entrevistado
 - [x] Site hospedado e link disponível no README (GitHub Pages)
 - [x] Organização real confirmada — Mercado Koala (será a mesma na Entrega 2)
 
