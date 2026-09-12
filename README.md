@@ -31,27 +31,28 @@ O site foi desenvolvido para **divulgar o mercado digitalmente**, apresentando a
 ## 🗂️ Estrutura do Projeto
 
 ```
-Koala Anúnco/
+Koala-Anuncio/
 ├── index.html               # Página Inicial
-├── contato.html             # Página de Contato (formulário)
 ├── orcamento.html           # Página de Orçamento/Solicitação
 ├── paginas/
+│   ├── contato.html         # Página de Contato (formulário)
 │   ├── sobre.html           # Quem Somos
 │   ├── produtos.html        # Produtos & Serviços
 │   ├── faq.html             # Perguntas Frequentes
 │   ├── depoimentos.html     # Depoimentos & Avaliações
-│   ├── trabalhe-conosco.html# Trabalhe Conosco
+│   ├── trabalhe-conosco.html # Trabalhe Conosco
 │   ├── parceiros.html       # Parceiros & Marcas
 │   └── politica.html        # Política de Privacidade
 ├── assets/
 │   ├── img/                 # Foto da entrevista com o responsável
 │   ├── audio/               # Áudio de apresentação
 │   └── video/               # Vídeo de apresentação
-├── .github/
-│   └── workflows/
-│       └── pages.yml        # Publicação automática no GitHub Pages
+├── .gitignore               # Arquivos locais ignorados pelo Git
 └── README.md
 ```
+
+O workflow de publicação do GitHub Pages fica em `.github/workflows/` e não é
+exibido nesta árvore resumida para manter a documentação mais limpa.
 
 ---
 

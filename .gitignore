@@ -1,0 +1,7 @@
+# Arquivos locais do editor
+.vscode/
+*.code-workspace
+
+# Arquivos temporários do sistema
+.DS_Store
+Thumbs.db
